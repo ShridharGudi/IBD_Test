@@ -1,0 +1,15 @@
+{
+  "name": "dbcreator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "package": "bestzip ../create_db_lambda.zip create_db_lambda.js node_modules/ snapshot.sql"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mysql": "^2.13.0"
+  }
+}
